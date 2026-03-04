@@ -1,0 +1,34 @@
+{
+  "n_clusters": 10,
+  "dim": 384,
+  "n_vectors": 207,
+  "M": 8,
+  "ef_construction": 100,
+  "ef_search": 50,
+  "gap_policy": [
+    [
+      0.185,
+      6
+    ],
+    [
+      0.124,
+      8
+    ],
+    [
+      0.066,
+      12
+    ],
+    [
+      0.027,
+      16
+    ],
+    [
+      0.0,
+      20
+    ]
+  ],
+  "n_indexes": 3,
+  "pq_m": 0,
+  "has_boundary_links": true,
+  "n_boundary_vectors": 28
+}

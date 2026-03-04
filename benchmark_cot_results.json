@@ -1,0 +1,249 @@
+{
+  "model": "llama-3.1-8b-instant",
+  "prompt": "Think step by step and answer: {query}",
+  "rows": [
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "What is F(7)?",
+      "bap_steps": 5,
+      "cot_tokens": 186,
+      "true_trr": 0.0269
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "What is the next number after 8 in the Fibonacci sequence?",
+      "bap_steps": 5,
+      "cot_tokens": 221,
+      "true_trr": 0.0226
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "What is the recurrence relation for Fibonacci numbers?",
+      "bap_steps": 5,
+      "cot_tokens": 284,
+      "true_trr": 0.0176
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "What is Binet's formula?",
+      "bap_steps": 6,
+      "cot_tokens": 218,
+      "true_trr": 0.0275
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "What is the golden ratio phi?",
+      "bap_steps": 5,
+      "cot_tokens": 512,
+      "true_trr": 0.0098
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "How does the Fibonacci sequence relate to Pascal's triangle?",
+      "bap_steps": 5,
+      "cot_tokens": 512,
+      "true_trr": 0.0098
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "What are Lucas numbers?",
+      "bap_steps": 5,
+      "cot_tokens": 317,
+      "true_trr": 0.0158
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "What is the Pisano period?",
+      "bap_steps": 5,
+      "cot_tokens": 394,
+      "true_trr": 0.0127
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "Are consecutive Fibonacci numbers coprime?",
+      "bap_steps": 5,
+      "cot_tokens": 511,
+      "true_trr": 0.0098
+    },
+    {
+      "domain": "fibonacci_reasoning",
+      "query": "What is the Zeckendorf representation?",
+      "bap_steps": 5,
+      "cot_tokens": 338,
+      "true_trr": 0.0148
+    },
+    {
+      "domain": "arithmetic",
+      "query": "What is 17 mod 5?",
+      "bap_steps": 5,
+      "cot_tokens": 69,
+      "true_trr": 0.0725
+    },
+    {
+      "domain": "arithmetic",
+      "query": "How do you compute the mean of a dataset?",
+      "bap_steps": 5,
+      "cot_tokens": 376,
+      "true_trr": 0.0133
+    },
+    {
+      "domain": "arithmetic",
+      "query": "What is the quadratic formula?",
+      "bap_steps": 5,
+      "cot_tokens": 392,
+      "true_trr": 0.0128
+    },
+    {
+      "domain": "arithmetic",
+      "query": "What is the Pythagorean theorem?",
+      "bap_steps": 5,
+      "cot_tokens": 437,
+      "true_trr": 0.0114
+    },
+    {
+      "domain": "arithmetic",
+      "query": "How do you add fractions with different denominators?",
+      "bap_steps": 5,
+      "cot_tokens": 342,
+      "true_trr": 0.0146
+    },
+    {
+      "domain": "arithmetic",
+      "query": "What are the rules for exponents?",
+      "bap_steps": 5,
+      "cot_tokens": 327,
+      "true_trr": 0.0153
+    },
+    {
+      "domain": "arithmetic",
+      "query": "What is a prime number?",
+      "bap_steps": 5,
+      "cot_tokens": 333,
+      "true_trr": 0.015
+    },
+    {
+      "domain": "arithmetic",
+      "query": "How do logarithms work?",
+      "bap_steps": 5,
+      "cot_tokens": 512,
+      "true_trr": 0.0098
+    },
+    {
+      "domain": "arithmetic",
+      "query": "What is the sum of the first n natural numbers?",
+      "bap_steps": 5,
+      "cot_tokens": 411,
+      "true_trr": 0.0122
+    },
+    {
+      "domain": "arithmetic",
+      "query": "What is standard deviation?",
+      "bap_steps": 5,
+      "cot_tokens": 365,
+      "true_trr": 0.0137
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "What scientific field did Marie Curie work in?",
+      "bap_steps": 5,
+      "cot_tokens": 239,
+      "true_trr": 0.0209
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "Who invented the telephone?",
+      "bap_steps": 5,
+      "cot_tokens": 406,
+      "true_trr": 0.0123
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "What is the capital of France?",
+      "bap_steps": 5,
+      "cot_tokens": 61,
+      "true_trr": 0.082
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "When did World War II end?",
+      "bap_steps": 5,
+      "cot_tokens": 236,
+      "true_trr": 0.0212
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "Who discovered penicillin?",
+      "bap_steps": 5,
+      "cot_tokens": 280,
+      "true_trr": 0.0179
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "What did Einstein receive the Nobel Prize for?",
+      "bap_steps": 5,
+      "cot_tokens": 227,
+      "true_trr": 0.022
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "Who wrote Hamlet?",
+      "bap_steps": 4,
+      "cot_tokens": 128,
+      "true_trr": 0.0312
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "When was the first FIFA World Cup held?",
+      "bap_steps": 5,
+      "cot_tokens": 137,
+      "true_trr": 0.0365
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "What is the tallest mountain in the world?",
+      "bap_steps": 4,
+      "cot_tokens": 208,
+      "true_trr": 0.0192
+    },
+    {
+      "domain": "multihop_facts",
+      "query": "Can two contradictory facts about the same subject both be true?",
+      "bap_steps": 5,
+      "cot_tokens": 490,
+      "true_trr": 0.0102
+    }
+  ],
+  "domain_summary": [
+    {
+      "domain": "fibonacci_reasoning",
+      "avg_bap_steps": 5.1,
+      "avg_cot_tokens": 349.3,
+      "avg_true_trr": 0.0167,
+      "estimated_trr": 0.237,
+      "diff_vs_estimated": -0.2203
+    },
+    {
+      "domain": "arithmetic",
+      "avg_bap_steps": 5.0,
+      "avg_cot_tokens": 356.4,
+      "avg_true_trr": 0.0191,
+      "estimated_trr": 0.248,
+      "diff_vs_estimated": -0.2289
+    },
+    {
+      "domain": "multihop_facts",
+      "avg_bap_steps": 4.8,
+      "avg_cot_tokens": 241.2,
+      "avg_true_trr": 0.0273,
+      "estimated_trr": 0.31,
+      "diff_vs_estimated": -0.2827
+    }
+  ],
+  "global": {
+    "avg_bap_steps": 4.97,
+    "avg_cot_tokens": 315.63,
+    "avg_true_trr": 0.021,
+    "cot_trr": 1.0,
+    "token_reduction_factor": 47.52
+  }
+}

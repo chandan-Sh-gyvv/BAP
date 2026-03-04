@@ -1,0 +1,34 @@
+# Secrets — never commit
+Api key.txt
+*.env
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Byte-compiled
+*.pyc
+
+# Lock and temp files from BAP atomic write
+*.json.lck
+*.json.tmp
+*.tmp
+
+# Backup files from atomic write
+nodes.bak
+*.bak
+
+# Session / internal planning files
+SESSION_8_TASKS.md
+
+# Stray copy — not canonical
+shsrs/bap_engine.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
