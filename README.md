@@ -1,5 +1,7 @@
 # BAP — Budgeted Activation Propagation Engine
 
+https://doi.org/10.5281/zenodo.18862351
+
 > A graph-based reasoning engine that replaces LLM chain-of-thought with structured activation propagation over a ThoughtSpace.
 > **47.5× token reduction** vs standard CoT. Deterministic. Interpretable. Fast.
 
